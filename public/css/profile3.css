@@ -1,0 +1,64 @@
+body {
+    background-color: #e5e5e5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+}
+
+.content {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.biography,
+.achievements {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.biography img {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p, li {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+.biography:hover,
+.achievements:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
